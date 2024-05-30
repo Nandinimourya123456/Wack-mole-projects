@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whack-A-Mole</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Whack-A-Mole</h1>
+    <div class="scoreboard">
+      <p>Score: <span id="score">0</span></p>
+      <p>Time: <span id="time">30</span>s</p>
+    </div>
+    <div class="grid">
+      <!-- The grid will have 9 holes for moles -->
+      <div class="hole" data-id="1"></div>
+      <div class="hole" data-id="2"></div>
+      <div class="hole" data-id="3"></div>
+      <div class="hole" data-id="4"></div>
+      <div class="hole" data-id="5"></div>
+      <div class="hole" data-id="6"></div>
+      <div class="hole" data-id="7"></div>
+      <div class="hole" data-id="8"></div>
+      <div class="hole" data-id="9"></div>
+    </div>
+    <button id="startButton">Start Game</button>
+  </div>
+</body>
+</html>
